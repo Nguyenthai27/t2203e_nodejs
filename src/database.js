@@ -14,7 +14,6 @@ class Database{
             .catch((err)=>{
                 console.log(err);
             })
-
     }
 }
 module.exports = new Database();
